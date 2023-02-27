@@ -1,0 +1,304 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+*{
+    font-family: Roboto;
+    scroll-behavior: smooth;
+}
+
+#firstsitetitle{
+    position: absolute;
+    margin-top: 30px;
+    padding-left: 100px;
+    font-size: 18px;
+}
+
+#nav1{
+    text-align: center;
+    display: block;
+    width: 1349px;
+    height: 40px;
+    background-color: #121826;
+    margin-top: -16px;
+    color: #ffffff;
+}
+
+#navlist{
+    padding-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.navelements{
+    display: inline;
+    padding-left: 60px;
+}
+
+.links1{
+    transition: 0.3s;
+    text-decoration: none;
+    color: white;
+}
+
+.links1:hover{
+    transition: 0.3s;
+    color: #26e6ff;
+}
+
+@keyframes hoverlight{
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(-360deg);
+    }
+}
+
+#onofflight{
+    position: absolute;
+    margin-top: -15px;
+    margin-left: 1250px;
+    border-radius: 15px;
+    border: none;
+    height: 35px;
+    width: 45px;
+    background-color: #384458;
+    color: #26e6ff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#onofflight:hover{
+    background-color: #404b61;
+}
+
+#rotateh{
+    position: relative;
+    height: 73%;
+    width: 130%;
+    margin-left: -5px;
+    padding-top: 8px;
+    border-radius: 10px;
+}
+
+#rotateh:hover{
+    animation: hoverlight 5s linear infinite;
+}
+
+#profilephoto{
+    margin-top: -20px;
+    height: 73px;
+    width: 70px;
+    border-radius: 50%;
+    margin-bottom: -20px;
+    border: 2px solid #26e6ff;
+}
+
+#principalimage{
+    position: absolute;
+    margin-left: 640px;
+    margin-top: -287px;
+    width: 500px;
+    height: 370px;
+}
+
+#firstpart{
+    padding-left: 100px;
+    padding-top: 100px;
+}
+
+#firstpart header h1{
+    font-size: 44px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 0px;
+}
+
+#firstpart spam{
+    color: #26e6ff;
+    font-size: 28px;
+}
+
+#principalheader{
+    color: white;
+}
+
+#section1 p{
+    color: #596880;
+    margin-bottom: -5px;
+}
+
+#section1 button{
+    margin-top: 40px;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: gold;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#secondpart{
+    padding-left: 100px;
+    padding-top: 20px;
+    margin-top: 140px;
+    background-color: #0a0a0a;
+    color: white;
+    height: 400px;
+}
+
+#secondpart header h1{
+    font-size: 28px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 100px;
+}
+
+#reactimg{
+    height: 160px;
+    width: 185px;
+    animation: hoverlight 5s linear infinite;
+}
+
+#reactimg:hover{
+    animation: hoverlight 5s linear infinite;
+}
+
+#jsimg{
+    height: 160px;
+    width: 175px;
+}
+
+#gitimg{
+    height: 160px;
+    width: 175px;
+}
+
+#cssimg{
+    height: 160px;
+    width: 175px;
+}
+
+#htmlimg{
+    height: 140px;
+    width: 135px;
+}
+
+#divimg1{
+    position: absolute;
+    background: linear-gradient(to left, #141414, #0a0a0a);
+    width: 185px;
+    height: 160px;
+    padding: 20px;
+    margin-top: -40px;
+    transition: 0.3s;
+}
+
+#divimg2{
+    position: absolute;
+    background-color: #141414;
+    width: 175px;
+    height: 160px;
+    padding: 20px;
+    margin-left: 235px;
+    margin-top: -40px;
+    transition: 0.3s;
+}
+
+#divimg3{
+    position: absolute;
+    background-color: #141414;
+    width: 175px;
+    height: 160px;
+    padding: 20px;
+    margin-left: 460px;
+    margin-top: -40px;
+    transition: 0.3s;
+}
+
+#divimg4{
+    position: absolute;
+    background-color: #141414;
+    width: 175px;
+    height: 160px;
+    padding: 20px;
+    margin-left: 685px;
+    margin-top: -40px;
+    transition: 0.3s;
+}
+
+#divimg5{
+    position: absolute;
+    background: linear-gradient(to right, #141414, #0a0a0a);
+    width: 175px;
+    height: 150px;
+    padding: 20px;
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 0px;
+    margin-left: 910px;
+    margin-top: -40px;
+    transition: 0.3s;
+}
+
+#divimg5:hover{
+    transition: 0.3s;
+    background: linear-gradient(to right, #202020, #0a0a0a);
+}
+
+#divimg1:hover{
+    transition: 0.3s;
+    background: linear-gradient(to left, #202020, #0a0a0a);
+}
+
+#divimg2:hover, #divimg3:hover, #divimg4:hover{
+    transition: 0.3s;
+    background-color: #1b1b1b;
+}
+
+.logos{
+    margin-left: 20px;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+
+.psnames{
+    position: absolute;
+    color: white;
+    font-size: 15px;
+    margin-top: 180px;
+    margin-left: 83px;
+    font-family: Montserrat;
+}
+
+#p2{
+    margin-left: 314px;
+}
+
+#p3{
+    margin-left: 559px;
+}
+
+#p4{
+    margin-left: 780px;
+}
+
+#p5{
+    margin-left: 1003px;
+}
+
+#spanartpoint{
+    color: gold;
+}
+
+main{
+    background-color: #121826;
+}
